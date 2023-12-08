@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Testing Website UBM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://www.vuzevpn.com/blog/wp-content/uploads/2022/11/AdobeStock_104148950-1536x1152.jpeg');
+  min-height: 100%;
+  opacity: 85%;
+}
+</style>
+</head>
+
+<body>
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+  
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+    <center>
+      <br><br>
+      <h1 class="w3-jumbo"><b>Testing Website</b></h1>
+      <h3>Log Based Machine Learning For DDoS Prevention </h3>
+      <h5>Tim Masih Pemula - Universitas Bunda Mulia</h5>
+    </center>
+  </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+      <h3><b>About Us</b></h3>
+      <p style="font-size : 24px">
+        Selamat datang di Web Testing Tim Masih Pemula (Bunda Mulia University), Kami menguji dan melindungi situs Anda dari serangan DDoS. Keamanan situs web Anda adalah prioritas utama kami.
+      </p> 
+    <!-- End About Section -->
+    </div>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h3 class="w3-text-grey"><b>Bunda Mulia University</b></h3>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://th.bing.com/th/id/R.3a29643074582b6a55213b8e8614b65f?rik=WL0ldNT%2fH9mOHQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-_EWxkcWrZg8%2fUdOh4rtXsvI%2fAAAAAAAAADU%2f1La6-ksudKc%2fs1565%2fUBM.jpg&ehk=4bVrRqm12R5kvSx%2f2tO0AqxMj8gYtgmkqrlWZwboU3Y%3d&risl=&pid=ImgRaw&r=0.jpg" style="width:100% ; opacity:70%">
+        
+      </div>
+
+      <div class="w3-half">
+        <img src="https://th.bing.com/th/id/R.b8f10210038e42e76e5f9b549e20617b?rik=n5XQ1%2fADgEw5mg&riu=http%3a%2f%2fbiaya-kuliah.net%2fwp-content%2fuploads%2f2016%2f06%2fubm.jpg&ehk=YdwbLdXHYjMEPDkGFMAf2XzD4Yb6sRw%2b97ZUrK4%2fiSQ%3d&risl=&pid=ImgRaw&r=0.jpg" style="width:100% ; opacity:70%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Us</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> <a href="https://www.google.com/maps/place/Universitas+Bunda+Mulia/@-6.1302517,106.8161587,17z/data=!3m1!4b1!4m6!3m5!1s0x2e6a1e076112ebad:0xacd0a7987f401f11!8m2!3d-6.1302517!4d106.8187336!16s%2Fm%2F0n410fr?entry=ttu.com">Klik Untuk Maps</a></p> 
+    </div>
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

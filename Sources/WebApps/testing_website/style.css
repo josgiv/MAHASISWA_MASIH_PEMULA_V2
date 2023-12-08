@@ -1,0 +1,148 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f4ecdb; /* Warna dasar kuning */
+    color: #333; /* Warna teks */
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 48px;
+  }
+  
+  .w3-jumbo {
+    color: #1565c0; /* Warna biru untuk judul jumbo */
+  }
+  
+  /* Navigation Sidebar */
+  .w3-sidebar {
+    width: 40%;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    border: 1px solid #ccc; /* Border */
+  }
+  
+  .w3-sidebar a {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border-bottom: 1px solid #ccc; /* Border */
+  }
+  
+  .w3-sidebar a:last-child {
+    border-bottom: none; /* Hapus border di elemen terakhir */
+  }
+  
+  .w3-sidebar a:hover {
+    color: #f1f1f1;
+    background-color: #333;
+  }
+  
+  .w3-sidebar .w3-closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Main Content */
+  .w3-main {
+    margin-left: 40%;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 48px;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    border: 1px solid #ccc; /* Border */
+  }
+  
+  #about h3 {
+    color: #1565c0; /* Warna biru untuk judul section */
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 48px;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    border: 1px solid #ccc; /* Border */
+  }
+  
+  #portfolio h3 {
+    color: #1565c0; /* Warna biru untuk judul section */
+  }
+  
+  .w3-row-padding img {
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
+  .w3-row-padding img:hover {
+    opacity: 1;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 48px;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    border: 1px solid #ccc; /* Border */
+  }
+  
+  #contact h2 {
+    color: #1565c0; /* Warna biru untuk judul section */
+  }
+  
+  /* Footer */
+  footer {
+    padding: 64px;
+    background-color: #f1f1f1;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    border: 1px solid #ccc; /* Border */
+  }
+  
+  /* Social Icons */
+  .w3-social {
+    margin-top: 32px;
+  }
+  
+  .w3-social i {
+    font-size: 36px;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+  .w3-social i:hover {
+    color: #1565c0; /* Warna biru saat hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .w3-sidebar {
+      width: 60%;
+    }
+  
+    .w3-main {
+      margin-left: 60%;
+    }
+  }
+  
